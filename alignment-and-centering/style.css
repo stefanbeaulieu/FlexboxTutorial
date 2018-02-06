@@ -31,5 +31,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  justify-content: ;
+  border: 10px solid mistyrose;
+  height: 100vh;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 33.33333%;
 }
